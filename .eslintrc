@@ -1,0 +1,21 @@
+{
+    "plugins": [
+        "standard",
+        "node"
+    ],
+    "extends": [
+        "standard",
+        "plugin:node/recommended"
+    ],
+    "rules": {
+        "indent": [
+            "warn",
+            4
+        ],
+        "space-before-function-paren": "off",
+        "semi": [
+            "error","always"
+        ],
+        "padded-blocks":"off"
+    }
+}

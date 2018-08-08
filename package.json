@@ -1,0 +1,53 @@
+{
+  "name": "fnstack",
+  "version": "1.0.0",
+  "description": "Async middleware function stack inspired by expressjs",
+  "main": "index.js",
+  "files": [
+    "lib",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "preversion": "npm test",
+    "postversion": "git push --follow-tags",
+    "release": "npm version -m \"Release version %s\""
+  },
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:codebysd/node-fnstack"
+  },
+  "keywords": [
+    "async",
+    "middleware",
+    "stack",
+    "express"
+  ],
+  "author": "codebysd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com:codebysd/node-fnstack/issues"
+  },
+  "homepage": "https://github.com:codebysd/node-fnstack#readme",
+  "devDependencies": {
+    "@types/node": "^10.5.1",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "eslint": "^5.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
+    "sinon": "^4.5.0"
+  }
+}
