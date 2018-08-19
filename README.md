@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/codebysd/node-fnstack.svg)](https://travis-ci.org/codebysd/node-fnstack)
 [![Coverage Status](https://coveralls.io/repos/github/codebysd/node-fnstack/badge.svg)](https://coveralls.io/github/codebysd/node-fnstack)
-[![npm downloads](https://img.shields.io/npm/dt/fnstack.svg)](https://www.npmjs.com/package/fnstack)
+[![npm downloads](https://img.shields.io/npm/dt/node-fnstack.svg)](https://www.npmjs.com/package/node-fnstack)
 [![Open issues](https://img.shields.io/github/issues/codebysd/node-fnstack.svg)](https://github.com/codebysd/node-fnstack/issues)
 [![Pull requests](https://img.shields.io/github/issues-pr/codebysd/node-fnstack.svg)](https://github.com/codebysd/node-fnstack/pulls)
 
@@ -18,14 +18,14 @@ all working sequentially on the same data.
 Install:
 
 ```bash
-npm install fnstack --save
+npm install node-fnstack --save
 ```
 
 A typical stack:
 
 ```javascript
 // import
-const FnStack = require('fnstack');
+const FnStack = require('node-fnstack');
 
 // create one
 const stack = new FnStack();
@@ -87,7 +87,7 @@ invoked in the same order they were added, and with same arguments as the stack 
 Example:
 
 ```javascript
-const FnStack = require('fnstack');
+const FnStack = require('node-fnstack');
 
 const stack = new FnStack();
 
@@ -119,7 +119,7 @@ along the stack.
 Example:
 
 ```javascript
-const FnStack = require('fnstack');
+const FnStack = require('node-fnstack');
 
 const stack = new FnStack();
 
@@ -149,7 +149,7 @@ This property represents the entire stack as a single async middleware function.
 Example:
 
 ```javascript
-const FnStack = require('fnstack');
+const FnStack = require('node-fnstack');
 
 const stack = new FnStack();
 stack.use(async () => console.log('fn11'));
@@ -185,7 +185,7 @@ should be invoked. For this a middleware function can return or resolve a specia
 Example:
 
 ```javascript
-const FnStack = require('fnstack');
+const FnStack = require('node-fnstack');
 
 const stack = new FnStack();
 
