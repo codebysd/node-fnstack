@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/codebysd/node-fnstack.svg)](https://travis-ci.org/codebysd/node-fnstack)
 [![Coverage Status](https://coveralls.io/repos/github/codebysd/node-fnstack/badge.svg)](https://coveralls.io/github/codebysd/node-fnstack)
+[![npm downloads](https://img.shields.io/npm/dt/fnstack.svg)](https://www.npmjs.com/package/fnstack)
+[![Open issues](https://img.shields.io/github/issues/codebysd/node-fnstack.svg)](https://github.com/codebysd/node-fnstack/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/codebysd/node-fnstack.svg)](https://github.com/codebysd/node-fnstack/pulls)
 
 # node-fnstack
 Async middleware function stack inspired by ExpressJS
@@ -8,7 +11,7 @@ Async middleware function stack inspired by ExpressJS
 This is a standalone, simple and async version of middleware function stack popularized by [ExpressJS](https://expressjs.com/en/guide/using-middleware.html). It can be used for setting up arbitrary function stacks.
 
 In itself, it is a powerful concepts of building a one way processing pipeline composed of functions, 
-all working sequentially on the same arguments. 
+all working sequentially on the same data. 
 
 ## Quick Tour
 
