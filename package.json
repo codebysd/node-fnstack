@@ -1,6 +1,6 @@
 {
   "name": "fnstack",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Async middleware function stack inspired by expressjs",
   "main": "index.js",
   "files": [
