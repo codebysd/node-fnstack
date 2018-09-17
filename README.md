@@ -10,8 +10,8 @@ Async middleware function stack inspired by ExpressJS
 ## Why ?
 This is a standalone, simple and async version of middleware function stack popularized by [ExpressJS](https://expressjs.com/en/guide/using-middleware.html). It can be used for setting up arbitrary function stacks.
 
-In itself, it is a powerful concepts of building a one way processing pipeline composed of functions, 
-all working sequentially on the same data. 
+In itself, it is a powerful concept of building a one way processing pipeline composed of functions, 
+all working sequentially on the same data.
 
 ## Quick Tour
 
