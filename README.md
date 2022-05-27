@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/codebysd/node-fnstack.svg)](https://travis-ci.org/codebysd/node-fnstack)
-[![Coverage Status](https://coveralls.io/repos/github/codebysd/node-fnstack/badge.svg)](https://coveralls.io/github/codebysd/node-fnstack)
 [![npm downloads](https://img.shields.io/npm/dt/node-fnstack.svg)](https://www.npmjs.com/package/node-fnstack)
 [![Open issues](https://img.shields.io/github/issues/codebysd/node-fnstack.svg)](https://github.com/codebysd/node-fnstack/issues)
 [![Pull requests](https://img.shields.io/github/issues-pr/codebysd/node-fnstack.svg)](https://github.com/codebysd/node-fnstack/pulls)
